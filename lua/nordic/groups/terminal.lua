@@ -1,9 +1,7 @@
 local M = {}
 
 function M.get_groups()
-    local C = require('nordic.colors')
-
-    ---@class TerminalHighlights
+    local C = require 'nordic.colors'
     local G = {}
 
     G.terminal_color_0 = C.black0

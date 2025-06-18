@@ -1,8 +1,6 @@
 -- The Nord palette: https://www.nordtheme.com/.
 -- This file has a bunch of added colors.
 
--- NOTE: All hex codes must be uppercase (for testing)
----@class BasePalette
 local palette = {
 
     none = 'NONE',
@@ -15,7 +13,7 @@ local palette = {
 
     -- Grays
     -- This color is used on their website's dark theme.
-    gray0 = '#242933', --bg
+    gray0 = '#242933', -- bg
     -- Polar Night.
     gray1 = '#2E3440',
     gray2 = '#3B4252',
